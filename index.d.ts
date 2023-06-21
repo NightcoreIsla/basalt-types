@@ -29,6 +29,7 @@ import { Treeview } from "./lib/Treeview";
 import { VisualObject } from "./lib/VisualObject";
 
 export * from "./lib/types";
+export * from "./basalt-lib";
 
 export {
     BaseFrame,

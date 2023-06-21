@@ -59,5 +59,4 @@ export declare interface Basalt {
     setProjectDir: (dir: string) => void;
 }
 
-declare const basalt: Basalt;
-export = basalt;
+export declare const basalt: Basalt;
