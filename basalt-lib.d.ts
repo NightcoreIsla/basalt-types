@@ -1,4 +1,3 @@
-import * as types from "lua-types/5.0";
 import { Frame } from "./lib/Frame";
 import { EventCallbackReturnType } from "./lib/types";
 

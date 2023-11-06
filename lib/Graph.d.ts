@@ -1,7 +1,7 @@
-import { ChangeableObject } from "./ChangeableObject";
+import { VisualObject } from "./VisualObject";
 import { GraphType } from "./types";
 
-export declare class Graph extends ChangeableObject {
+export declare class Graph extends VisualObject {
     setGraphColor(color: number): this;
     setGraphSymbol(symbol: string, symbolColor?: number): this;
     getGraphSymbol(): LuaMultiReturn<[string, number]>;

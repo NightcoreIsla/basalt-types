@@ -1,6 +1,6 @@
 import { Frame } from "./Frame";
-import { ScrollDirection } from "./types";
+import { FlexDirection, ScrollDirection } from "./types";
 
 export declare class ScrollableFrame extends Frame {
-    setDirection(direction: ScrollDirection): this;
+    setDirection(direction: ScrollDirection | FlexDirection): this;
 }

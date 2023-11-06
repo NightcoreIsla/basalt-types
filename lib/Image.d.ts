@@ -1,5 +1,5 @@
 import { VisualObject } from "./VisualObject";
-import { ImageType } from "./types";
+import { ImageFormat } from "./types";
 
 export declare class Image extends VisualObject {
     loadImage(path: string): this;
