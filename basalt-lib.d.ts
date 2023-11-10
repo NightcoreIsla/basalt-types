@@ -57,5 +57,3 @@ export declare interface Basalt {
     removeFrame: (id: string) => void;
     setProjectDir: (dir: string) => void;
 }
-
-export declare const basalt: Basalt;
